@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog.
+I like to eat pizza.
+She sells seashells by the seashore.
+Programming is fun.
+This is a sample text.
