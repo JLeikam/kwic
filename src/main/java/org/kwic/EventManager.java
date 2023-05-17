@@ -6,6 +6,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * EventManager is a class that manages events and their handlers.
+ * It is responsible for subscribing handlers to events and publishing events.
+ * Fore more on the observer pattern, see: https://refactoring.guru/design-patterns/observer
+ */
 public class EventManager {
     private Map<EventType, List<EventHandler>> eventHandlers;
 

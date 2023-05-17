@@ -5,6 +5,10 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.*;
 
+/**
+ * The InputReader class is responsible for reading the text from the file.
+ * It publishes the TEXT_RECEIVED event after reading the text.
+ */
 public class InputReader {
     private EventManager eventManager;
     private static final Logger logger = LogManager.getLogger(InputReader.class);

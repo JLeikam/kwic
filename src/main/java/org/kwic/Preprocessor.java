@@ -8,6 +8,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * The Preprocessor class is responsible for preprocessing the text.
+ * It subscribes to the TEXT_RECEIVED event and publishes the PREPROCESSING_COMPLETE event after preprocessing the text.
+ */
 public class Preprocessor {
     private EventManager eventManager;
     private Set<String> stopwords;

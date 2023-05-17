@@ -6,6 +6,10 @@ import org.apache.logging.log4j.Logger;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * The OutputWriter class is responsible for writing the index to the console.
+ * It subscribes to the INDEXING_COMPLETE event.
+ */
 public class OutputWriter {
     private EventManager eventManager;
     private static final Logger logger = LogManager.getLogger(OutputWriter.class);

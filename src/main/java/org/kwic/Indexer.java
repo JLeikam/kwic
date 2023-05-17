@@ -8,6 +8,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * The Indexer class is responsible for building the index.
+ * It subscribes to the PREPROCESSING_COMPLETE event and publishes the INDEXING_COMPLETE event after building the index.
+ */
 public class Indexer {
     private EventManager eventManager;
     private static final Logger logger = LogManager.getLogger(Indexer.class);
